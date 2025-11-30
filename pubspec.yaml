@@ -1,0 +1,36 @@
+name: qc_mutu_kopi
+description: Aplikasi Penilaian Mutu Kopi Berbasis Fuzzy Mamdani.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Grafik keanggotaan, grafik defuzz, grafik firing strength
+  fl_chart: ^0.66.0
+
+  # Google fonts (opsional)
+  google_fonts: ^6.1.0
+
+  # State management sederhana
+  provider: ^6.1.2
+
+  # Untuk responsive UI
+  flutter_screenutil: ^5.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+
+ 
